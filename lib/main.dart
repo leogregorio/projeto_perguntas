@@ -3,6 +3,7 @@
 import 'package:flutter/material.dart';
 import 'questao.dart';
 import 'resposta.dart';
+import 'resultado.dart';
 
 void main() =>  runApp(PerguntaApp());
 
@@ -61,12 +62,7 @@ class _PerguntaAppState extends State<PerguntaApp> {
           ],
         ) 
         : 
-        Center(           
-              child: Text(
-                "Parabéns!",
-                style: TextStyle(fontSize: 34),
-                textAlign: TextAlign.center,), 
-        ),
+        Resultado(),
       ),
     );
   }
