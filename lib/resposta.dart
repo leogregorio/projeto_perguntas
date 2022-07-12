@@ -13,8 +13,7 @@ class Resposta extends StatelessWidget {
     return Container(
       width: double.infinity,
       
-      child: ElevatedButton(
-        
+      child: ElevatedButton(        
         child: Text(_texto),
         onPressed: _pressionar,
         style: ElevatedButton.styleFrom(
